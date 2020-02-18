@@ -1,9 +1,11 @@
-﻿namespace Data_Access_EF_Core.Entities
+﻿using Model.DotNetCore.Entities;
+
+namespace Data_Access_EF_Core.Entities
 {
-    public class Step : EntityBase
+    public class Step : AuditableEntityBase, IStep
     {
         public int TaskId { get; set; }
-        public Task Task { get; set; }
+        public ITask Task { get; set; }
 
         public string Title { get; set; }
     }

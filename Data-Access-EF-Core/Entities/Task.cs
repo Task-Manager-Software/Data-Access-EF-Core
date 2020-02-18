@@ -1,13 +1,14 @@
-﻿using Data_Access_EF_Core.Enums;
+﻿using Model.DotNetCore.Entities;
+using Model.DotNetCore.Enums;
 using System;
 using System.Collections.Generic;
 
 namespace Data_Access_EF_Core.Entities
 {
-    public class Task : EntityBase
+    public class Task : AuditableEntityBase, ITask
     {
         public int ProjectId { get; set; }
-        public Project Project { get; set; }
+        public IProject Project { get; set; }
 
         public string Title { get; set; }
         public bool IsMyDay { get; set; }
@@ -18,8 +19,8 @@ namespace Data_Access_EF_Core.Entities
         public byte? SelectedWeekDays { get; set; }
         public string Note { get; set; }
 
-        public List<AccountTask> AccountTasks { get; set; }
-        public List<Step> Steps { get; set; }
-        public List<Attachment> Attachments { get; set; }
+        public List<IAccountTask> AccountTasks { get; set; }
+        public List<IStep> Steps { get; set; }
+        public List<IAttachment> Attachments { get; set; }
     }
 }
