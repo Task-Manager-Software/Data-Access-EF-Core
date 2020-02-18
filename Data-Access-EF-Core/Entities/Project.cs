@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Data_Access_EF_Core.Entities
 {
-    public class Project : AuditableEntityBase, IProject
+    public interface IProject<out Project> where Project : IProject
     {
         public string Title { get; set; }
         public bool ShowCompletedTasks { get; set; }
