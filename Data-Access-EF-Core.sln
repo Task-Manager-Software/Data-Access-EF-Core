@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data-Access-EF-Core", "Data-Access-EF-Core\Data-Access-EF-Core.csproj", "{771F2CD2-19F4-4071-8CE3-B4A8958CB736}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.DotNetCore", "Model-DotNet-Core\Model.DotNetCore\Model.DotNetCore.csproj", "{F27F842C-C05A-4A41-8946-016C633F307A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.DotNetCore", "..\Model-DotNet-Core\Model.DotNetCore\Model.DotNetCore.csproj", "{004E0EB2-4811-4726-849C-FE04F88EC086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{771F2CD2-19F4-4071-8CE3-B4A8958CB736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{771F2CD2-19F4-4071-8CE3-B4A8958CB736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{771F2CD2-19F4-4071-8CE3-B4A8958CB736}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F27F842C-C05A-4A41-8946-016C633F307A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F27F842C-C05A-4A41-8946-016C633F307A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F27F842C-C05A-4A41-8946-016C633F307A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F27F842C-C05A-4A41-8946-016C633F307A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004E0EB2-4811-4726-849C-FE04F88EC086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004E0EB2-4811-4726-849C-FE04F88EC086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004E0EB2-4811-4726-849C-FE04F88EC086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004E0EB2-4811-4726-849C-FE04F88EC086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
